@@ -42,7 +42,12 @@ export default {
         ],
         password: [
           { required: true, message: '密码不能为空', trigger: 'change' },
-          { min: 6, max: 12, message: '长度在 6 到 12 个字符', trigger: 'change' }
+          {
+            min: 6,
+            max: 12,
+            message: '长度在 6 到 12 个字符',
+            trigger: 'change'
+          }
         ]
       }
     }
@@ -110,5 +115,4 @@ export default {
     }
   }
 }
-
 </style>
